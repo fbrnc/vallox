@@ -1,0 +1,26 @@
+{
+  "name": "vallox",
+  "version": "1.0.0",
+  "description": "Simple API helping you to control a ValloPlus 270 MV (and maybe others)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fbrnc/vallox.git"
+  },
+  "author": "Fabrizio Branca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fbrnc/vallox/issues"
+  },
+  "bin": {
+    "vallox": "./bin/vallox"
+  },
+  "homepage": "https://github.com/fbrnc/vallox#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "ws": "^3.1.0"
+  }
+}
